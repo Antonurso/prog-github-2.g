@@ -13,6 +13,7 @@ let cspeed = 10;
 
 function setup() {
   createCanvas(1000, 500);
+  noStroke();
 }
 function draw() {
   if (keyIsDown(LEFT_ARROW)) {

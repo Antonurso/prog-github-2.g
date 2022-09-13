@@ -8,6 +8,7 @@ let e = 1;
 let or = 10;
 let eR = 25;
 let p = 0;
+let p2 = 0;
 let cspeed = 10;
 
 function setup() {
@@ -38,7 +39,7 @@ if (keyIsDown('87')) {
 if (keyIsDown('83')) {
   y2 += 5;
 }
-background(220);
+background(220,220,220,100);
 e++
 fill(255,255,0);
   if (e >= 1) {
@@ -53,10 +54,11 @@ fill(255,255,0);
   if (sqrt(((x2+25)-ox)**2+((y2+25)-oy)**2) < 35) {
     ox = random(10,990);
     oy = random(10,490);
-    p++
+    p2++
   }
   fill(255, 0, 0);
   ellipse(x, y, 50);
   rect(x2,y2,50);
-  text("point: "+p,0,height/7);
+  text("point cirkel: "+p,0,height/7);
+  text("point firkant: "+p2,0,height/6);
 }

@@ -48,13 +48,11 @@ fill(255,255,0);
   if (sqrt((x-ox)**2+(y-oy)**2) < 35) {
     ox = random(10,990);
     oy = random(10,490);
-    e++
     p++
   }
   if (sqrt(((x2+25)-ox)**2+((y2+25)-oy)**2) < 35) {
     ox = random(10,990);
     oy = random(10,490);
-    e++
     p++
   }
   fill(255, 0, 0);

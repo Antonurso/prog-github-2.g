@@ -1,12 +1,7 @@
-let x1 = 0;
-let x2 = 400;
-let y = 10;
-let y1 = 0;
-let y2 = 400;
-let x = 10;
+let x = -((1 / 8) * width);
+let y = 0;
 function setup() {
-  createCanvas(400, 400);
-  background(220);
-  frameRate(5);
+  createCanvas(800, 800);
+  background(225);
+  console.log((1 / 4) * width);
 }
-function lines() {}
